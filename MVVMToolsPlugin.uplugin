@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "MVVM Tools Plugin",
+	"Description": "Example plugin demonstrating MVVM UMG + Editor Extension",
+	"Category": "Tools",
+	"CreatedBy": "Vladyslav Guba",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Modules": [
+		{
+			"Name": "MVVMToolsPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "MVVMToolsPluginEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
