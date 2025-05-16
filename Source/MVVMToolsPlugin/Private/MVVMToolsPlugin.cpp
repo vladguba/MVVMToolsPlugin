@@ -1,8 +1,6 @@
 #include "MVVMToolsPlugin.h"
 #include "Blueprint/UserWidget.h"
 
-IMPLEMENT_MODULE(FMVVMToolsPluginModule, MVVMToolsPlugin)
-
 // Called when the runtime module starts: binds to world initialization events
 void FMVVMToolsPluginModule::StartupModule()
 {
@@ -32,3 +30,5 @@ void FMVVMToolsPluginModule::OnWorldInit(UWorld* World, const UWorld::Initializa
             }
         });
 }
+
+IMPLEMENT_MODULE(FMVVMToolsPluginModule, MVVMToolsPlugin)

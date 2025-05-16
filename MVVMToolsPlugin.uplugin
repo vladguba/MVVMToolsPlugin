@@ -3,7 +3,7 @@
 	"Version": 1,
 	"VersionName": "1.0",
 	"FriendlyName": "MVVM Tools Plugin",
-	"Description": "Example plugin demonstrating MVVM UMG + Editor Extension",
+	"Description": "MVVM UMG runtime demo & Slate editor extension for quick asset access",
 	"Category": "Tools",
 	"CreatedBy": "Vladyslav Guba",
 	"CreatedByURL": "",
